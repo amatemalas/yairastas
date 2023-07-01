@@ -1,0 +1,10 @@
+name: Products
+form: $/amatemalas/yairastas/models/product/fields.yaml
+modelClass: Amatemalas\Yairastas\Models\Product
+defaultRedirect: amatemalas/yairastas/products
+create:
+    redirect: 'amatemalas/yairastas/products/update/:id'
+    redirectClose: amatemalas/yairastas/products
+update:
+    redirect: amatemalas/yairastas/products
+    redirectClose: amatemalas/yairastas/products

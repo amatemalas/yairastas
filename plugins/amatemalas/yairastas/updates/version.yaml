@@ -1,0 +1,11 @@
+v1.0.1:
+    - 'Initialize plugin'
+v1.0.2:
+    - 'Created table amatemalas_yairastas_products'
+    - builder_table_create_amatemalas_yairastas_products.php
+v1.0.3:
+    - 'Created table amatemalas_yairastas_categories'
+    - builder_table_create_amatemalas_yairastas_categories.php
+v1.0.4:
+    - 'Created table amatemalas_yairastas_products_categories'
+    - builder_table_create_amatemalas_yairastas_products_categories.php

@@ -1,0 +1,36 @@
+columns:
+    id:
+        label: ID
+        type: number
+        sortable: true
+    title:
+        label: 'amatemalas.yairastas::lang.fields.title'
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: 'amatemalas.yairastas::lang.fields.description'
+        type: text
+        searchable: true
+    price:
+        label: 'amatemalas.yairastas::lang.fields.price'
+        type: text
+        searchable: false
+        sortable: true
+    stock:
+        label: Stock
+        type: number
+        searchable: false
+        sortable: true
+    is_active:
+        label: 'amatemalas.yairastas::lang.fields.active'
+        type: switch
+        sortable: true
+    is_featured:
+        label: 'amatemalas.yairastas::lang.fields.featured'
+        type: switch
+        sortable: true
+    created_at:
+        label: 'amatemalas.yairastas::lang.fields.created_at'
+        type: datetime
+        sortable: true

@@ -1,0 +1,33 @@
+<div style="display: none;" class="cookie-container bg-dark fixed-bottom">
+    <div class="cookie-content p-4 row justify-content-between flex-column flex-md-row">
+        <div class="col-12 col-md-8">
+            <p class="text-white mb-0">
+                Esta web usa cookies para mejorar la experiencia de usuario dentro del sitio. Si desea más información sobre como tratamos las cookies, acceda a nuestra página de <a href="{{ 'cookies'|page }}" target="_blank">política de cookies</a>.
+            </p>
+        </div>
+        <div class="col-12 col-md-4 mt-md-0 mt-3 text-md-end align-items-md-center">
+            <a href="#" class="js-cookie-consent btn btn-primary mb-1">{{'Aceptar todas'|_}}</a>
+            <a href="#" class="js-cookie-consent btn btn-secondary mb-1">{{'Sólo necesarias'|_}}</a>
+            <a href="#" class="js-cookie-consent btn btn-secondary mb-1">{{'Rechazar'|_}}</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .cookie-container {
+        display: none;
+    }
+</style>
+{% if not cookie %}
+    {% put scripts %}
+        <script>
+            $(document).ready(function () {
+                $('.cookie-container').slideDown(600);
+                $('.js-cookie-consent').on('click', function () {
+                    $.request('onAccept');
+                    $('.cookie-container').slideUp(600);
+                });
+            });
+        </script>
+    {% endput %}
+{% endif %}

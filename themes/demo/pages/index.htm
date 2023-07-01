@@ -10,8 +10,12 @@ handle = "Blog\Post"
 [resources]
 less[] = "pages/index.less"
 vars[howItsMadeCmsTemplate] = 'cms:cms-page:index.htm'
+
+[cookieConsent]
 ==
 {% set latestPosts = blog.limit(3).get %}
+
+{% component 'cookieConsent' %}
 
 <div class="jumbotron">
     <div class="container">

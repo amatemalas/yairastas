@@ -1,0 +1,6 @@
+plugin:
+    name: 'amatemalas.cookieconsent::lang.plugin.name'
+    description: 'amatemalas.cookieconsent::lang.plugin.description'
+    author: Amatemalas
+    icon: oc-icon-legal
+    homepage: ''

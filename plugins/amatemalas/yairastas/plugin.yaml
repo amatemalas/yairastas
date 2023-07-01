@@ -1,0 +1,21 @@
+plugin:
+    name: 'amatemalas.yairastas::lang.plugin.name'
+    description: 'amatemalas.yairastas::lang.plugin.description'
+    author: amatemalas
+    icon: oc-icon-scissors
+    homepage: ''
+navigation:
+    yairastas:
+        label: 'amatemalas.yairastas::lang.plugin.name'
+        url: /
+        icon: icon-scissors
+        order: '90'
+        sideMenu:
+            yairastas.products:
+                label: 'amatemalas.yairastas::lang.menu.products'
+                url: amatemalas/yairastas/products
+                icon: icon-shopping-cart
+            yairastas.categories:
+                label: 'amatemalas.yairastas::lang.menu.categories'
+                url: amatemalas/yairastas/categories
+                icon: icon-tags

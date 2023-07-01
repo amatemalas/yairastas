@@ -1,0 +1,10 @@
+name: Categories
+form: $/amatemalas/yairastas/models/category/fields.yaml
+modelClass: Amatemalas\Yairastas\Models\Category
+defaultRedirect: amatemalas/yairastas/categories
+create:
+    redirect: 'amatemalas/yairastas/categories/update/:id'
+    redirectClose: amatemalas/yairastas/categories
+update:
+    redirect: amatemalas/yairastas/categories
+    redirectClose: amatemalas/yairastas/categories

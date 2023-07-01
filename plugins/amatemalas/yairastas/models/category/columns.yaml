@@ -1,0 +1,18 @@
+columns:
+    id:
+        label: ID
+        type: number
+        sortable: true
+    title:
+        label: 'amatemalas.yairastas::lang.fields.title'
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: 'amatemalas.yairastas::lang.fields.description'
+        type: text
+        searchable: true
+    created_at:
+        label: 'amatemalas.yairastas::lang.fields.created_at'
+        type: datetime
+        sortable: true
