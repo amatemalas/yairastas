@@ -23,6 +23,10 @@ navigation:
                 label: 'amatemalas.yairastas::lang.menu.services'
                 url: amatemalas/yairastas/services
                 icon: icon-ticket
+            yairastas.faq:
+                label: FAQs
+                url: amatemalas/yairastas/faqs
+                icon: icon-question-circle
     contacts:
         label: 'amatemalas.yairastas::lang.menu.contacts'
         url: /

@@ -1,0 +1,10 @@
+name: Faqs
+form: $/amatemalas/yairastas/models/faq/fields.yaml
+modelClass: Amatemalas\Yairastas\Models\Faq
+defaultRedirect: amatemalas/yairastas/faqs
+create:
+    redirect: 'amatemalas/yairastas/faqs/update/:id'
+    redirectClose: amatemalas/yairastas/faqs
+update:
+    redirect: amatemalas/yairastas/faqs
+    redirectClose: amatemalas/yairastas/faqs

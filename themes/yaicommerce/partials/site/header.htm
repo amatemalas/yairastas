@@ -1,26 +1,41 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">YaiRastas</a>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+<nav class="c-header bg-white">
+    <div class="py-2 c-prenav">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 d-flex align-items-center">
+                    <a class="me-2 text-dark" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="me-2 text-dark" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="me-2 text-dark" href="#"><i class="fab fa-pinterest"></i></a>
+                    <a class="me-2 text-dark" href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+                <div class="col-6 d-flex align-items-center justify-content-end">
+                    <a href="#" class="btn"><i class="fa fa-user-circle me-2"></i>Iniciar sesión</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="{{ 'assets/images/logo.png'|theme }}" width="70" alt=""> YaiRastas
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </nav>

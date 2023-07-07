@@ -19,6 +19,9 @@
         'subject' => 'Asunto',
         'message' => 'Mensaje',
         'gender' => 'Género',
+        'category' => 'Categoría',
+        'question' => 'Pregunta',
+        'answer' => 'Respuesta',
     ],
     'menu' => [
         'products' => 'Productos',

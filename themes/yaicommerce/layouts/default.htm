@@ -4,18 +4,12 @@
 <html lang="{{ activeLocale }}">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=600px, initial-scale=1.0">
+        <meta name="viewport" content="initial-scale=1.0">
         <title>{{ this.page.title }}</title>
-        <link rel="stylesheet" href="{{ 'assets/css/bootstrap.min.css'|theme }}">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        {# <link rel="stylesheet" href="styles.css"> #}
-        <style>
-            * {
-                font-family: 'Signika Negative' !important;
-            }
-        </style>
+        <link rel="stylesheet" href="{{ 'assets/dist/css/style.css'|theme }}">
     </head>
     <body>
         {% partial 'site/header' %}
@@ -26,6 +20,6 @@
 
         {% partial 'site/footer' %}
 
-        <script src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
+        <script src="{{ 'assets/dist/js/app.js'|theme }}"></script>
     </body>
 </html>
