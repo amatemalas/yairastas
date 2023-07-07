@@ -1,0 +1,39 @@
+tabs:
+    fields:
+        section1:
+            label: 'amatemalas.yairastas::lang.fields.general_info'
+            span: full
+            type: section
+            tab: 'amatemalas.yairastas::lang.fields.general_info'
+        title:
+            label: 'amatemalas.yairastas::lang.fields.title'
+            span: auto
+            type: text
+            tab: 'amatemalas.yairastas::lang.fields.general_info'
+        slug:
+            label: Slug
+            span: auto
+            type: text
+            tab: 'amatemalas.yairastas::lang.fields.general_info'
+        description:
+            label: 'amatemalas.yairastas::lang.fields.description'
+            size: large
+            span: full
+            type: richeditor
+            tab: 'amatemalas.yairastas::lang.fields.general_info'
+        method:
+            label: 'amatemalas.yairastas::lang.fields.method'
+            span: auto
+            type: text
+            tab: 'amatemalas.yairastas::lang.fields.general_info'
+        materials:
+            label: Materials
+            span: auto
+            type: repeater
+            tab: 'amatemalas.yairastas::lang.fields.general_info'
+            form:
+                fields:
+                    title:
+                        label: Texto
+                        span: full
+                        type: text

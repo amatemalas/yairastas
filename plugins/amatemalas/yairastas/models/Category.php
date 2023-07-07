@@ -1,6 +1,7 @@
 <?php namespace Amatemalas\Yairastas\Models;
 
 use Model;
+use System\Models\File;
 
 /**
  * Model
@@ -21,4 +22,21 @@ class Category extends Model
     public $rules = [
     ];
 
+    /**
+     * Relations & Attachments
+     */
+    public $belongsToMany = [
+        'products' => [
+            Product::class,
+                'table' => 'amatemalas_yairastas_products_categories',
+        ],
+    ];
+
+    public $attachOne = [
+        'image' => File::class,
+    ];
+
+    public $attachMany = [
+        'images' => File::class,
+    ];
 }

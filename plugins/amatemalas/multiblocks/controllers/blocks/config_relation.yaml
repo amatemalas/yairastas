@@ -1,0 +1,11 @@
+pages:
+    label: 'amatemalas.multiblocks::lang.fields.pages'
+    view:
+        list: $/amatemalas/multiblocks/models/page/pivot_columns.yaml
+        toolbarButtons: add|remove
+    manage:
+        list: $/amatemalas/multiblocks/models/page/columns.yaml
+        form: $/amatemalas/multiblocks/models/page/pivot_fields.yaml
+        recordsPerPage: 10
+    pivot:
+        form: $/amatemalas/multiblocks/models/page/pivot_fields.yaml

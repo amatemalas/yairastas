@@ -1,0 +1,37 @@
+fields:
+    general:
+        label: 'amatemalas.multiblocks::lang.fields.general_info'
+        span: full
+        type: section
+    name:
+        label: 'amatemalas.multiblocks::lang.fields.type_name'
+        span: auto
+        type: text
+    file_name:
+        label: 'amatemalas.multiblocks::lang.fields.file_name'
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    visible_fields:
+        label: 'amatemalas.multiblocks::lang.fields.visible_fields'
+        type: checkboxlist
+        emptyOption: "Selecciona los campos visibles para este tipo"
+        showSearch: true
+        span: auto
+    preview:
+        label: Preview
+        span: auto
+        type: fileupload
+#    codeeditor@update:
+#        label: 'amatemalas.multiblocks::lang.fields.template'
+#        span: full
+#        type: section
+#    template@update:
+#        size: huge
+#        language: twig
+#        span: full
+#        autoClosing: true
+#        type: codeeditor
+

@@ -1,0 +1,8 @@
+categories:
+  label: 'Categorías'
+  view:
+    list: $/amatemalas/yairastas/models/category/columns.yaml
+    toolbarButtons: create|delete|link|unlink
+    manage:
+    form: $/amatemalas/yairastas/models/category/fields.yaml
+    recordsPerPage: 10

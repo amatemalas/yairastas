@@ -1,0 +1,20 @@
+<?php
+    $imageWidth = 400;
+    $imageHeight = 'auto';
+
+    $thumb = null;
+    if ($value) {
+        $thumb = $value->getThumb($imageWidth, $imageHeight, 'crop');
+    }
+
+    if (!isset($record)) {
+        $record = $value;
+    }
+?>
+<div style="position: relative;">
+    <?php if ($thumb): ?>
+    <img class="" src="<?=$thumb ?>" width="<?=$imageWidth ?>" height="<?=$imageHeight ?>">
+    <?php else : ?>
+    <img class="" src="<?= url('/plugins/amatemalas/lamoraleja/assets/images/default_image.jpg'); ?>" width="<?=$imageWidth ?>" height="<?=$imageHeight ?>">
+    <?php endif; ?>
+</div>

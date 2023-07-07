@@ -1,0 +1,42 @@
+<?php return [
+    'plugin' => [
+        'name' => 'Multi Blocks',
+        'description' => 'Plugin para añadir bloques de manera dinámica a páginas asociadas',
+    ],
+    'label' => [
+        'default' => 'General',
+        'first_section' => 'Sección interior',
+    ],
+    'tabs' => [
+        'info' => 'Información',
+        'media' => 'Multimedia',
+        'flags' => 'Configuración',
+    ],
+    'menu' => [
+        'blocks' => 'Bloques',
+        'types' => 'Tipos de bloque',
+        'block' => 'Bloque',
+        'type' => 'Tipo de bloque',
+    ],
+    'fields' => [
+        'blocks' => 'Bloques',
+        'title' => 'Título',
+        'description' => 'Descripción',
+        'images' => 'Galería',
+        'subtitle' => 'Subtítulo',
+        'order' => 'Orden',
+        'reference_link' => 'Enlace',
+        'blockcategory' => 'Tipo de bloque',
+        'image' => 'Imágen',
+        'name' => 'Nombre del bloque',
+        'page' => 'Página',
+        'pages' => 'Páginas',
+        'icon' => 'Icono',
+        'type_name' => 'Nombre del tipo',
+        'file_name' => 'Nombre de archivo',
+        'visible_fields' => 'Campos visibles',
+        'features' => 'Características',
+        'template' => 'Editor de plantilla',
+        'general_info' => 'Información general',
+    ],
+];

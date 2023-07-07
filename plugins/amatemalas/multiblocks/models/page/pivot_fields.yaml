@@ -1,0 +1,5 @@
+fields:
+    'pivot[sort_order]':
+        label: 'Orden'
+        span: auto
+        type: text

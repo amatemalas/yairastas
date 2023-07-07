@@ -34,6 +34,11 @@ tabs:
             span: auto
             type: number
             tab: 'amatemalas.yairastas::lang.fields.general_info'
+        categories@update:
+            label: Categorías
+            type: partial
+            span: full
+            tab: 'amatemalas.yairastas::lang.fields.general_info'
         is_active:
             label: 'amatemalas.yairastas::lang.fields.active'
             span: auto

@@ -1,0 +1,19 @@
+columns:
+    id:
+        label: ID
+        type: number
+    gender:
+        label: 'amatemalas.yairastas::lang.fields.gender'
+        type: text
+    name:
+        label: 'amatemalas.yairastas::lang.fields.name'
+        type: text
+    email:
+        label: Email
+        type: text
+    subject:
+        label: 'amatemalas.yairastas::lang.fields.subject'
+        type: text
+    created_at:
+        label: 'amatemalas.yairastas::lang.fields.created_at'
+        type: datetime

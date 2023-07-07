@@ -1,0 +1,97 @@
+tabs:
+    fields:
+        name:
+            label: 'amatemalas.multiblocks::lang.fields.name'
+            span: auto
+            required: 1
+            type: text
+            tab: 'amatemalas.multiblocks::lang.tabs.info'
+        type:
+            label: 'amatemalas.multiblocks::lang.fields.blockcategory'
+            span: auto
+            required: 1
+            type: relation
+            tab: 'amatemalas.multiblocks::lang.tabs.info'
+        pages@update:
+            span: auto
+            type: partial
+            path: 'field_pages'
+            tab: 'amatemalas.multiblocks::lang.tabs.info'
+        title:
+            label: 'amatemalas.multiblocks::lang.fields.title'
+            span: full
+            required: 1
+            type: text
+            tab: 'amatemalas.multiblocks::lang.tabs.info'
+        subtitle:
+            label: 'amatemalas.multiblocks::lang.fields.subtitle'
+            size: huge
+            span: full
+            required: 1
+            type: richeditor
+            tab: 'amatemalas.multiblocks::lang.tabs.info'
+        description:
+            label: 'amatemalas.multiblocks::lang.fields.description'
+            size: huge
+            span: full
+            required: 1
+            type: richeditor
+            tab: 'amatemalas.multiblocks::lang.tabs.info'
+        reference_link:
+            label: 'amatemalas.multiblocks::lang.fields.reference_link'
+            span: auto
+            required: 1
+            type: text
+            tab: 'amatemalas.multiblocks::lang.tabs.info'
+        features:
+            label: 'amatemalas.multiblocks::lang.fields.features'
+            type: repeater
+            span: auto
+            tab: 'amatemalas.multiblocks::lang.tabs.info'
+            form:
+                fields:
+                    feature_title:
+                        label: 'amatemalas.multiblocks::lang.fields.title'
+                        type: text
+                        span: full
+                    feature_subtitle:
+                        label: 'amatemalas.multiblocks::lang.fields.subtitle'
+                        type: text
+                        span: full
+                    feature_icon:
+                        label: 'amatemalas.multiblocks::lang.fields.icon'
+                        type: mediafinder
+                        span: full
+                    type:
+                        hidden: 1
+                        type: number
+        image:
+            label: 'amatemalas.multiblocks::lang.fields.image'
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: full
+            type: fileupload
+            tab: 'amatemalas.multiblocks::lang.tabs.media'
+        icon:
+            label: 'amatemalas.multiblocks::lang.fields.icon'
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: full
+            type: fileupload
+            tab: 'amatemalas.multiblocks::lang.tabs.media'
+        images:
+            label: 'amatemalas.multiblocks::lang.fields.images'
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: full
+            type: fileupload
+            tab: 'amatemalas.multiblocks::lang.tabs.media'

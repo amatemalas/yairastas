@@ -1,0 +1,13 @@
+columns:
+    title:
+        label: 'amatemalas.multiblocks::lang.fields.name'
+        type: text
+        searchable: true
+    filename:
+        label: 'amatemalas.multiblocks::lang.fields.file_name'
+        type: text
+        span: auto
+    'pivot[sort_order]':
+        label: 'Orden'
+        span: auto
+        type: text

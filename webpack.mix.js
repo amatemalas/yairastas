@@ -65,3 +65,7 @@ require('./modules/editor/editor.mix')(mix);
 require('./modules/media/media.mix')(mix);
 require('./modules/tailor/tailor.mix')(mix);
 require('./modules/cms/cms.mix')(mix);
+
+// Custom Mixes
+mix.js('src/app.js', 'dist/')
+    .sass('src/app.scss', 'dist/')

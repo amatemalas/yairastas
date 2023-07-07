@@ -1,0 +1,13 @@
+list: $/amatemalas/multiblocks/models/block/columns.yaml
+modelClass: Amatemalas\MultiBlocks\Models\Block
+title: "amatemalas.multiblocks::lang.menu.blocks"
+noRecordsMessage: "backend::lang.list.no_records"
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+  buttons: list_toolbar
+  search:
+    prompt: "backend::lang.list.search_prompt"
+recordUrl: "amatemalas/multiblocks/blocks/update/:id"
+filter: config_filter.yaml

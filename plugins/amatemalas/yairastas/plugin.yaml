@@ -19,3 +19,21 @@ navigation:
                 label: 'amatemalas.yairastas::lang.menu.categories'
                 url: amatemalas/yairastas/categories
                 icon: icon-tags
+            yairastas.services:
+                label: 'amatemalas.yairastas::lang.menu.services'
+                url: amatemalas/yairastas/services
+                icon: icon-ticket
+    contacts:
+        label: 'amatemalas.yairastas::lang.menu.contacts'
+        url: /
+        icon: icon-paper-plane-o
+        sideMenu:
+            contacts.contacts:
+                label: 'amatemalas.yairastas::lang.menu.contacts'
+                url: amatemalas/yairastas/contacts
+                icon: icon-inbox
+                iconSvg: ''
+            contacts.purchases:
+                label: 'amatemalas.yairastas::lang.menu.purchases'
+                url: /
+                icon: icon-dollar

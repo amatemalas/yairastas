@@ -13,9 +13,18 @@
         'featured' => 'Destacado',
         'image' => 'Imagen destacada',
         'gallery' => 'Galería',
+        'method' => 'Método',
+        'name' => 'Nombre',
+        'phone' => 'Teléfono',
+        'subject' => 'Asunto',
+        'message' => 'Mensaje',
+        'gender' => 'Género',
     ],
     'menu' => [
         'products' => 'Productos',
         'categories' => 'Categorías',
+        'services' => 'Servicios',
+        'contacts' => 'Contactos',
+        'purchases' => 'Peticiones de compra',
     ],
 ];

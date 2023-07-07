@@ -1,0 +1,29 @@
+{
+  "name": "amatemalas/multiblocks",
+  "type": "october-plugin",
+  "extra": {
+    "installer-name": "dynamicblocks"
+  },
+  "description": "RefineriaWeb dynamic blocks plugin for October CMS",
+  "homepage": "https://gitlab.refineriaweb.com/refineriaweb/october/plugins/dynamicblocks",
+  "keywords": [
+    "october",
+    "octobercms",
+    "refineriaweb",
+    "dynamicblocks",
+    "blocks"
+  ],
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Adrián Matemalas",
+      "email": "amatemalas@refineriaweb.com",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "composer/installers": ">=1.0"
+  }
+}

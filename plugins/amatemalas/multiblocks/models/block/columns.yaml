@@ -1,0 +1,20 @@
+columns:
+    id:
+        label: ID
+        type: number
+    name:
+        label: 'amatemalas.multiblocks::lang.fields.name'
+        type: text
+        searchable: true
+    type:
+        label: 'amatemalas.multiblocks::lang.menu.types'
+        type: text
+        relation: type
+        searchable: true
+        select: name
+    pages_name:
+        label: 'amatemalas.multiblocks::lang.fields.pages'
+        type: text
+        relation: pages
+        searchable: true
+        select: filename

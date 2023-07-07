@@ -1,0 +1,10 @@
+name: Services
+form: $/amatemalas/yairastas/models/service/fields.yaml
+modelClass: Amatemalas\Yairastas\Models\Service
+defaultRedirect: amatemalas/yairastas/services
+create:
+    redirect: 'amatemalas/yairastas/services/update/:id'
+    redirectClose: amatemalas/yairastas/services
+update:
+    redirect: amatemalas/yairastas/services
+    redirectClose: amatemalas/yairastas/services

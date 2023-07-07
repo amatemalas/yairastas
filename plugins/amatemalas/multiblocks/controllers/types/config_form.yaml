@@ -1,0 +1,11 @@
+name: 'amatemalas.multiblocks::lang.menu.type'
+form: $/amatemalas/multiblocks/models/type/fields.yaml
+modelClass: Amatemalas\MultiBlocks\Models\Type
+defaultRedirect: amatemalas/multiblocks/types
+create:
+    redirect: 'amatemalas/multiblocks/types/update/:id'
+    redirectClose: amatemalas/multiblocks/types
+update:
+    redirect: amatemalas/multiblocks/types
+    redirectClose: amatemalas/multiblocks/types
+    form: $/amatemalas/multiblocks/models/type/fields.yaml

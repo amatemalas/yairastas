@@ -1,0 +1,7 @@
+columns:
+    title:
+        label: 'amatemalas.multiblocks::lang.fields.page'
+        type: text
+        searchable: true
+    filename:
+        label: 'amatemalas.multiblocks::lang.fields.file_name'

@@ -1,0 +1,25 @@
+plugin:
+    name: 'amatemalas.multiblocks::lang.plugin.name'
+    description: 'amatemalas.multiblocks::lang.plugin.description'
+    author: RW
+    icon: oc-icon-cubes
+    homepage: ''
+permissions:
+    amatemalas_manage_types:
+        tab: 'amatemalas.multiblocks::lang.plugin.name'
+        label: 'Manage types'
+navigation:
+    multiblocks:
+        label: 'amatemalas.multiblocks::lang.plugin.name'
+        url: amatemalas/multiblocks/blocks
+        icon: icon-cube
+        order: '299'
+        sideMenu:
+            multiblocks.blocks:
+                label: 'amatemalas.multiblocks::lang.menu.blocks'
+                url: amatemalas/multiblocks/blocks
+                icon: icon-cubes
+            multiblocks.types:
+                label: 'amatemalas.multiblocks::lang.menu.types'
+                url: amatemalas/multiblocks/types
+                icon: icon-tags

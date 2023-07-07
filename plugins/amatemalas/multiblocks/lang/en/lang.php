@@ -1,0 +1,42 @@
+<?php return [
+    'plugin' => [
+        'name' => 'Multi Blocks',
+        'description' => 'Dynamic plugin to add dynamic blocks to asociated pages',
+    ],
+    'label' => [
+        'default' => 'General',
+        'first_section' => 'Inner Section',
+    ],
+    'tabs' => [
+        'info' => 'Info',
+        'media' => 'Multimedia',
+        'flags' => 'Config',
+    ],
+    'menu' => [
+        'blocks' => 'Blocks',
+        'types' => 'Block types',
+        'block' => 'Block',
+        'type' => 'Block type',
+    ],
+    'fields' => [
+        'blocks' => 'Blocks',
+        'title' => 'Title',
+        'description' => 'Description',
+        'images' => 'Gallery',
+        'subtitle' => 'Subtitle',
+        'order' => 'Order',
+        'reference_link' => 'Link',
+        'blockcategory' => 'Block Type',
+        'image' => 'Image',
+        'name' => 'Block name',
+        'page' => 'Page',
+        'pages' => 'Pages',
+        'icon' => 'Icon',
+        'type_name' => 'Type name',
+        'file_name' => 'Filename',
+        'visible_fields' => 'Visible fields',
+        'features' => 'Features',
+        'template' => 'Template editor',
+        'general_info' => 'General info',
+    ],
+];

@@ -1,0 +1,24 @@
+tabs:
+    fields:
+        section1:
+            label: 'amatemalas.yairastas::lang.fields.general_info'
+            span: full
+            type: section
+            tab: 'amatemalas.yairastas::lang.fields.general_info'
+        question:
+            label: Question
+            size: small
+            span: auto
+            type: richeditor
+            tab: 'amatemalas.yairastas::lang.fields.general_info'
+        answer:
+            label: Answer
+            size: small
+            span: auto
+            type: richeditor
+            tab: 'amatemalas.yairastas::lang.fields.general_info'
+        category:
+            label: Category
+            span: auto
+            type: text
+            tab: 'amatemalas.yairastas::lang.fields.general_info'

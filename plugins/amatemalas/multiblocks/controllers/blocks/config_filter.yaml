@@ -1,0 +1,12 @@
+scopes:
+  pages:
+    label: "amatemalas.multiblocks::lang.fields.page"
+    modelClass: Amatemalas\MultiBlocks\Models\Block
+    scope: filterPages
+    nameFrom: title
+    options: getPagesOptions
+  type_id:
+    label: "amatemalas.multiblocks::lang.fields.blockcategory"
+    modelClass: Amatemalas\MultiBlocks\Models\Type
+    conditions: type_id in (:filtered)
+    nameFrom: name

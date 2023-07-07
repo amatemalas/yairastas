@@ -1,0 +1,10 @@
+name: "amatemalas.multiblocks::lang.menu.block"
+form: $/amatemalas/multiblocks/models/block/fields.yaml
+modelClass: Amatemalas\MultiBlocks\Models\Block
+defaultRedirect: amatemalas/multiblocks/blocks
+create:
+  redirect: "amatemalas/multiblocks/blocks/update/:id"
+  redirectClose: amatemalas/multiblocks/blocks
+update:
+  redirect: amatemalas/multiblocks/blocks
+  redirectClose: amatemalas/multiblocks/blocks

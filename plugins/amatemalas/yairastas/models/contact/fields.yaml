@@ -1,0 +1,26 @@
+fields:
+    gender:
+        label: 'amatemalas.yairastas::lang.fields.gender'
+        span: auto
+        type: text
+    name:
+        label: 'amatemalas.yairastas::lang.fields.name'
+        span: auto
+        type: text
+    phone:
+        label: 'amatemalas.yairastas::lang.fields.phone'
+        span: auto
+        type: text
+    email:
+        label: 'Email'
+        span: auto
+        type: text
+    subject:
+        label: 'amatemalas.yairastas::lang.fields.subject'
+        span: auto
+        type: text
+    message:
+        label: 'amatemalas.yairastas::lang.fields.message'
+        size: huge
+        span: full
+        type: richeditor

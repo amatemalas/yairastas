@@ -1,0 +1,12 @@
+columns:
+    id:
+        label: ID
+        type: number
+        sortable: true
+    name:
+        label: 'amatemalas.multiblocks::lang.fields.type_name'
+        type: text
+        searchable: true
+    preview:
+        type: partial
+        path: $/amatemalas/multiblocks/controllers/types/_column_image.htm

@@ -1,0 +1,18 @@
+<?php if ($toolbar): ?>
+<?= $toolbar->render() ?>
+<?php endif ?>
+<div class="layout-row">
+    <div class="c-custom__table list-widget-container">
+        <?php if ($filter): ?>
+        <?= $filter->render() ?>
+        <?php endif ?>
+
+        <?= $list->render() ?>
+    </div>
+</div>
+
+<style>
+    .rowlink td {
+        vertical-align: middle !important;
+    }
+</style>

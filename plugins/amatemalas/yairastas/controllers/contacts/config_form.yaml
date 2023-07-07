@@ -1,0 +1,10 @@
+name: Contacts
+form: $/amatemalas/yairastas/models/contact/fields.yaml
+modelClass: Amatemalas\Yairastas\Models\Contact
+defaultRedirect: amatemalas/yairastas/contacts
+create:
+    redirect: 'amatemalas/yairastas/contacts/update/:id'
+    redirectClose: amatemalas/yairastas/contacts
+update:
+    redirect: amatemalas/yairastas/contacts
+    redirectClose: amatemalas/yairastas/contacts
