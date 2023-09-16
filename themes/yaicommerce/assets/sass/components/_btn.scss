@@ -1,0 +1,22 @@
+.c-btn {
+    transition: all .5s ease;
+
+    &.btn-outline-primary {
+        &:hover {
+            color: white;
+        }
+    }
+
+    &.btn-primary {
+        color: white;
+        &:hover {
+            color: white;
+        }
+    }
+
+    &__link {
+        &:hover {
+            color: var(--bs-secondary) !important;
+        }
+    }
+}

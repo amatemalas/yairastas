@@ -1,0 +1,88 @@
+title = "Registro"
+layout = "default"
+url = "/register"
+==
+{% partial 'hero' %}
+<div class="container my-5 py-5 text-center">
+    <p class="mb-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempore voluptatem, molestiae totam architecto aperiam laborum velit repudiandae quos autem esse quis eligendi voluptate at commodi doloremque repellendus natus eius.
+    </p>
+    <form class="form text-center">
+        <div class="col-sm-6 m-auto">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="form-floating">
+                        <input class="form-control" type="text" id="name" name="name" placeholder="{{ 'Nombre'|_ }}">
+                        <label for="name">{{ 'Nombre'|_ }}*</label>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-floating">
+                        <input class="form-control" type="text" id="surname" name="surname" placeholder="{{ 'Apellidos'|_ }}">
+                        <label for="surname">{{ 'Apellidos'|_ }}*</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 m-auto">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="form-floating">
+                        <input class="form-control" type="text" id="username" name="username" placeholder="{{ 'Usuario'|_ }}">
+                        <label for="username">{{ 'Usuario'|_ }}*</label>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-floating">
+                        <input class="form-control" type="text" id="phone" name="phone" placeholder="{{ 'Teléfono'|_ }}">
+                        <label for="phone">{{ 'Teléfono'|_ }}</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 m-auto">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="form-floating">
+                        <input class="form-control" type="text" id="email" name="email" placeholder="{{ 'Correo electrónico'|_ }}">
+                        <label for="email">{{ 'Correo electrónico'|_ }}*</label>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-floating">
+                        <select class="form-select" name="gender" id="gender">
+                            <option value="Masculino">{{ 'Masculino'|_ }}</option>
+                            <option value="Femenino">{{ 'Femenino'|_ }}</option>
+                            <option value="Otro">{{ 'Otro'|_ }}</option>
+                        </select>
+                        <label for="gender">Género</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 m-auto mb-3">
+            <div class="form-floating">
+                <input class="form-control" type="password" id="password" name="password" placeholder="{{ 'Contraseña'|_ }}">
+                <label for="password">{{ 'Contraseña'|_ }}*</label>
+            </div>
+        </div>
+        <div class="col-sm-6 m-auto mb-3">
+            <div class="form-floating">
+                <input class="form-control" type="password" id="confirmPassword" name="confirmPassword" placeholder="{{ 'Confirmar contraseña'|_ }}">
+                <label for="confirmPassword">{{ 'Confirmar contraseña'|_ }}*</label>
+            </div>
+        </div>
+        <div class="col-sm-6 m-auto mb-3">
+            <div class="form-check text-start">
+                <input class="form-check-input" type="checkbox" value="" id="legal" name="legal">
+                <label class="form-check-label" for="legal">
+                    Acepto los términos y condiciones de privacidad.
+                </label>
+            </div>
+        </div>
+        <div class="col-sm-6 m-auto mb-3">
+            <p class="text-muted">{{ '¿Ya tienes cuenta?'|_ }} <a href="{{ 'login'|page }}">{{ 'Inicia sesión ahora'|_ }}</a></p>
+        </div>
+        <input class="btn btn-primary c-btn" type="submit" value="Registrarse">
+    </form>
+</div>

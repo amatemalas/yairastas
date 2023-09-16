@@ -1,15 +1,16 @@
 <nav class="c-header bg-white">
     <div class="c-prenav bg-primary">
-        <div class="container-fluid">
+        <div class="container-fluid py-1">
             <div class="row">
                 <div class="col-6 d-flex align-items-center">
-                    <a class="me-2 text-white" href="#"><i class="fab fa-instagram"></i></a>
-                    <a class="me-2 text-white" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="me-2 text-white" href="#"><i class="fab fa-pinterest"></i></a>
-                    <a class="me-2 text-white" href="#"><i class="fab fa-tiktok"></i></a>
+                    <a class="me-2 text-white c-btn c-btn__link" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="me-2 text-white c-btn c-btn__link" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="me-2 text-white c-btn c-btn__link" href="#"><i class="fab fa-pinterest"></i></a>
+                    <a class="me-2 text-white c-btn c-btn__link" href="#"><i class="fab fa-tiktok"></i></a>
                 </div>
-                <div class="col-6 d-flex align-items-center justify-content-end">
-                    <a href="#" class="btn text-white"><i class="fa fa-user-circle me-2"></i>Iniciar sesión</a>
+                <div class="col-6 d-flex align-items-center justify-content-end text-white">
+                    <a href="#" class="text-white c-btn c-btn__link text-decoration-none me-3"><i class="fa fa-envelope me-2"></i><span class="d-none d-sm-inline">yairastas@gmail.com</span></a>
+                    <a href="#" class="text-white c-btn c-btn__link text-decoration-none me-3"><i class="fa fa-phone me-2"></i><span class="d-none d-sm-inline">+34 666 666 666</span></a>
                 </div>
             </div>
         </div>
@@ -26,15 +27,20 @@
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="{{ 'index'|page }}">{{ 'Inicio'|_ }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Productos</a>
+                        <a class="nav-link" href="#">{{ 'Productos'|_ }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios</a>
+                        <a class="nav-link" href="#">{{ 'Servicios'|_ }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">{{ 'Contacto'|_ }}</a>
                     </li>
                 </ul>
+                <a href="{{ 'login'|page }}" class="btn btn-outline-primary c-btn me-2">{{ 'Iniciar sesión'|_ }}</a>
+                <a href="{{ 'register'|page }}" class="btn btn-outline-primary c-btn">{{ 'Registrarse'|_ }}</a>
             </div>
         </div>
     </div>
