@@ -67,7 +67,7 @@ class UpdateManager
     protected $repository;
 
     /**
-     * @var int migrateCount number of migrations that occured.
+     * @var int migrateCount number of migrations that occurred.
      */
     protected $migrateCount = 0;
 
@@ -116,15 +116,10 @@ class UpdateManager
         }
 
         // Update modules
-        foreach (SystemHelper::listModules() as $module) {
-            $this->migrateModule($module);
-        }
+        $this->migrateModules();
 
         // Update plugins
-        $plugins = $this->pluginManager->getPlugins();
-        foreach ($plugins as $code => $plugin) {
-            $this->updatePlugin($code);
-        }
+        $this->migratePlugins();
 
         // Update app
         $this->migrateApp();
@@ -156,9 +151,7 @@ class UpdateManager
         }
 
         // Seed modules
-        foreach (SystemHelper::listModules() as $module) {
-            $this->seedModule($module);
-        }
+        $this->seedModules();
 
         // Seed app
         $this->seedApp();

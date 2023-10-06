@@ -1,0 +1,10 @@
+columns:
+    id:
+        label: ID
+        type: number
+    title:
+        label: 'amatemalas.yairastas::lang.fields.title'
+        type: text
+    created_at:
+        label: 'amatemalas.yairastas::lang.fields.created_at'
+        type: datetime

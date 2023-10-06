@@ -24,3 +24,12 @@ v1.0.8:
 v1.0.9:
     - 'Created table amatemalas_yairastas_services'
     - builder_table_create_amatemalas_yairastas_services.php
+v1.1.0:
+    - 'Created table amatemalas_yairastas_products_products'
+    - builder_table_create_amatemalas_yairastas_products_products.php
+v1.1.1:
+    - 'Created table amatemalas_yairastas_tags'
+    - builder_table_create_amatemalas_yairastas_tags.php
+v1.1.2:
+    - 'Created table amatemalas_yairastas_products_tags'
+    - builder_table_create_amatemalas_yairastas_products_tags.php

@@ -28,7 +28,11 @@ class Product extends Model
     public $belongsToMany = [
         'categories' => [
             Category::class,
-                'table' => 'amatemalas_yairastas_products_categories',
+            'table' => 'amatemalas_yairastas_products_categories',
+        ],
+        'tags' => [
+            Tag::class,
+            'table' => 'amatemalas_yairastas_products_tags',
         ],
     ];
 

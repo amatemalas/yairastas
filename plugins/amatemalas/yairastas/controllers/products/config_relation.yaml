@@ -6,3 +6,11 @@ categories:
     manage:
     form: $/amatemalas/yairastas/models/category/fields.yaml
     recordsPerPage: 10
+tags:
+  label: 'Tags'
+  view:
+    list: $/amatemalas/yairastas/models/tag/columns.yaml
+    toolbarButtons: create|delete|link|unlink
+    manage:
+    form: $/amatemalas/yairastas/models/tag/fields.yaml
+    recordsPerPage: 10

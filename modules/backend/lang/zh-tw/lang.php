@@ -115,12 +115,7 @@
     'delete_selected_confirm' => '刪除選取的記錄?',
     'delete_selected_success' => '成功刪除選擇的記錄',
   ],
-  'fileupload' => [
-    'attachment' => '附件',
-    'help' => '給附件新增標題和描述',
-    'title_label' => '標題',
-    'description_label' => '描述',
-  ],
+  'fileupload' => [],
   'form' => [
     'create_title' => '新 :name',
     'update_title' => '編輯 :name',
@@ -220,15 +215,6 @@
   'editor' => [
     'menu_label' => '代碼編輯器選項',
     'menu_description' => '自訂代碼編輯器選項, 例如字體大小和顏色主題',
-    'font_size' => '字體大小',
-    'tab_size' => '標籤大小',
-    'use_hard_tabs' => '使用tabs縮進',
-    'code_folding' => '代碼摺疊',
-    'word_wrap' => '自動換行',
-    'highlight_active_line' => '醒目顯示操作中的行',
-    'show_invisibles' => '顯示隱藏字元',
-    'show_gutter' => '顯示gutter',
-    'theme' => '色彩主題',
   ],
   'tooltips' => [
     'preview_website' => '預覽網站',
@@ -250,8 +236,6 @@
   'backend_preferences' => [
     'menu_label' => '管理介面設定',
     'menu_description' => '管理您的管理介面設定, 例如希望使用的語言。',
-    'locale' => '語言',
-    'locale_comment' => '選擇您希望使用的本地語言。',
   ],
   'access_log' => [],
   'filter' => [

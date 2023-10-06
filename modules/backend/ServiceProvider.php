@@ -35,13 +35,9 @@ class ServiceProvider extends ModuleServiceProvider
      */
     protected function registerSingletons()
     {
-        $this->app->singleton('backend.helper', \Backend\Helpers\Backend::class);
-        $this->app->singleton('backend.menu', function () {
-            return \Backend\Classes\NavigationManager::instance();
-        });
-        $this->app->singleton('backend.auth', function () {
-            return \Backend\Classes\AuthManager::instance();
-        });
+        // See notes in \System\ServiceProvider::registerSingletons
+        // this had to be moved kept there so it is available before
+        // plugins. The load order is system, plugins, modules.
     }
 
     /**

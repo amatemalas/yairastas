@@ -1,0 +1,10 @@
+name: Tags
+form: $/amatemalas/yairastas/models/tag/fields.yaml
+modelClass: Amatemalas\Yairastas\Models\Tag
+defaultRedirect: amatemalas/yairastas/tags
+create:
+    redirect: 'amatemalas/yairastas/tags/update/:id'
+    redirectClose: amatemalas/yairastas/tags
+update:
+    redirect: amatemalas/yairastas/tags
+    redirectClose: amatemalas/yairastas/tags

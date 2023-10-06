@@ -124,6 +124,16 @@ class ServiceProvider extends ModuleServiceProvider
         // @deprecated
         $this->app->singleton('backend.ui', \System\Classes\UiManager::class);
         $this->app->singleton('site.manager', \System\Classes\SiteManager::class);
+
+        // @todo v4 - these belong in the backend provider, and the load order
+        // should be changed to system, modules, plugins
+        $this->app->singleton('backend.helper', \Backend\Helpers\Backend::class);
+        $this->app->singleton('backend.menu', function () {
+            return \Backend\Classes\NavigationManager::instance();
+        });
+        $this->app->singleton('backend.auth', function () {
+            return \Backend\Classes\AuthManager::instance();
+        });
     }
 
     /**

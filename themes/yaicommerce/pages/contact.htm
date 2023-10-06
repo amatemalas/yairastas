@@ -1,0 +1,56 @@
+title = "Contacto"
+layout = "default"
+url = "/contacto"
+==
+{% partial 'hero' %}
+
+<div class="container my-5 py-5">
+    <div class="row">
+        <form class="form col col-md-6">
+            <div class="mb-3">
+                <div class="form-floating">
+                    <input class="form-control" type="text" id="fullname" name="fullname" placeholder="{{ 'Nombre y apellidos'|_ }}">
+                    <label for="fullname">{{ 'Nombre y apellidos'|_ }}</label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="form-floating">
+                    <input class="form-control" type="text" id="email" name="email" placeholder="{{ 'Correo electrónico'|_ }}">
+                    <label for="email">{{ 'Correo electrónico'|_ }}</label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="form-floating">
+                    <input class="form-control" type="text" id="phone" name="phone" placeholder="{{ 'Teléfono'|_ }}">
+                    <label for="phone">{{ 'Teléfono'|_ }}</label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="form-floating">
+                    <input class="form-control" type="text" id="subject" name="subject" placeholder="{{ 'Motivo de consulta'|_ }}">
+                    <label for="subject">{{ 'Motivo de consulta'|_ }}</label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="form-floating">
+                    <textarea class="form-control" id="body" name="body" placeholder="{{ 'Mensaje'|_ }}"></textarea>
+                    <label for="body">{{ 'Mensaje'|_ }}</label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="form-check text-start">
+                    <input class="form-check-input" type="checkbox" value="" id="legal" name="legal">
+                    <label class="form-check-label" for="legal">
+                        {{ 'Acepto los'|_ }} <a href="#">{{ 'términos y condiciones de privacidad'|_ }}</a>.
+                    </label>
+                </div>
+            </div>
+            <input class="btn btn-primary c-btn" type="submit" value="Entrar">
+        </form>
+        <div class="col-md-6">
+            <div class="c-map" id="map">
+                <iframe frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Carrer+Rafael+Lluís+Blanes+i+Massanet,+12,+bajo,+07007+Palma,+Balearic+Islands&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+            </div>
+        </div>
+    </div>
+</div>

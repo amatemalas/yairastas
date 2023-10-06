@@ -19,6 +19,10 @@ navigation:
                 label: 'amatemalas.yairastas::lang.menu.categories'
                 url: amatemalas/yairastas/categories
                 icon: icon-tags
+            yairastas.tags:
+                label: Tags
+                url: amatemalas/yairastas/tags
+                icon: icon-bookmark
             yairastas.services:
                 label: 'amatemalas.yairastas::lang.menu.services'
                 url: amatemalas/yairastas/services

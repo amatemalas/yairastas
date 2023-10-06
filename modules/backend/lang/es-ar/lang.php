@@ -103,12 +103,7 @@
     'records_per_page' => 'Registros por página',
     'records_per_page_help' => 'Seleccione el número de registros por página para mostrar. Tenga en cuenta que un alto número de registros en una sola página puede reducir el rendimiento.',
   ],
-  'fileupload' => [
-    'attachment' => 'Adjunto',
-    'help' => 'Añadir un título y una descripción para este Adjunto.',
-    'title_label' => 'Título',
-    'description_label' => 'Descripción',
-  ],
+  'fileupload' => [],
   'form' => [
     'create_title' => 'Nuevo :name',
     'update_title' => 'Editar :name',
@@ -188,15 +183,6 @@
   'editor' => [
     'menu_label' => 'Preferencias del editor de código',
     'menu_description' => 'Configurar preferencias del editor de código, como el tamaño de la letra y el color del esquema.',
-    'font_size' => 'Tamaño de la letra',
-    'tab_size' => '>Tamaño de la solapa',
-    'use_hard_tabs' => 'Espacio entre solapas',
-    'code_folding' => 'Código plegable',
-    'word_wrap' => 'Ajuste de línea',
-    'highlight_active_line' => 'Resaltar línea activa',
-    'show_invisibles' => 'Mostrar caracteres invisibles',
-    'show_gutter' => 'Mostrar canal',
-    'theme' => 'Color del esquema',
   ],
   'tooltips' => [
     'preview_website' => 'Vista previa de la página web',
@@ -213,8 +199,6 @@
   'backend_preferences' => [
     'menu_label' => 'Preferencias de backend',
     'menu_description' => 'Gestionar preferencias de idioma y la apariencia del backend.',
-    'locale' => 'Idioma',
-    'locale_comment' => 'Seleccione la localización para el uso del lenguaje.',
   ],
   'access_log' => [],
   'filter' => [

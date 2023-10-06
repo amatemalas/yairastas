@@ -115,16 +115,7 @@
     'delete_selected_success' => 'De markerade posterna är raderade.',
   ],
   'fileupload' => [
-    'attachment' => 'Bilaga',
-    'help' => 'Lägg till en och beskriving för denna bilagan.',
-    'title_label' => 'Titel',
-    'description_label' => 'Beskriving',
     'default_prompt' => 'Klicka på %s eller dra en fil hit för att ladda upp',
-    'attachment_url' => 'Bilage-URL',
-    'upload_file' => 'Ladda upp fil',
-    'upload_error' => 'Fel vid uppladdning',
-    'remove_confirm' => 'Är du säker?',
-    'remove_file' => 'Radera fil',
   ],
   'form' => [
     'create_title' => 'Skapa :name',
@@ -231,16 +222,6 @@
   'editor' => [
     'menu_label' => 'Kodnings preferenser',
     'menu_description' => 'Anpassa dina preferenser för kodredigering, så som typsnitt och färgschema.',
-    'font_size' => 'Teckenstorlek',
-    'tab_size' => 'Tab längd',
-    'use_hard_tabs' => 'Indentera med tab',
-    'code_folding' => 'Dölj kod',
-    'word_wrap' => 'Radbryting',
-    'highlight_active_line' => 'Markera aktiv rad',
-    'auto_closing' => 'Stäng taggar och specialtecken automatiskt',
-    'show_invisibles' => 'Visa dolda tecken',
-    'show_gutter' => 'Visa ränna',
-    'theme' => 'Färgschema',
   ],
   'tooltips' => [
     'preview_website' => 'Förhandsgranska websidan',
@@ -262,8 +243,6 @@
   'backend_preferences' => [
     'menu_label' => 'Back-end preferenser',
     'menu_description' => 'Hantera dina kontoinställningar såsom önskat språk.',
-    'locale' => 'Språk',
-    'locale_comment' => 'Välj önskat språk.',
   ],
   'access_log' => [],
   'filter' => [

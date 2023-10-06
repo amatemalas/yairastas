@@ -20,7 +20,7 @@ $(document).ready(function () {
         autoplay: {
             delay: 5000,
         },
-        speed: 1000,
+        speed: 500,
         slidesPerView: 1,
         breakpoints: {
             400: {

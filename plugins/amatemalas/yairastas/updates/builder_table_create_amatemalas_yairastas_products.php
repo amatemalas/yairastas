@@ -11,6 +11,7 @@ class BuilderTableCreateAmatemalasYairastasProducts extends Migration
         {
             $table->increments('id')->unsigned();
             $table->string('title');
+            $table->string('subtitle');
             $table->text('description');
             $table->string('slug');
             $table->decimal('price', 10, 2);
