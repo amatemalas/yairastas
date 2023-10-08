@@ -109,6 +109,8 @@ class ServiceProvider extends ModuleServiceProvider
     {
         $this->registerConsoleCommand('tailor.refresh', \Tailor\Console\TailorRefresh::class);
         $this->registerConsoleCommand('tailor.migrate', \Tailor\Console\TailorMigrate::class);
+        $this->registerConsoleCommand('tailor.prune', \Tailor\Console\TailorPrune::class);
+        $this->registerConsoleCommand('tailor.propagate', \Tailor\Console\TailorPropagate::class);
     }
 
     /**
