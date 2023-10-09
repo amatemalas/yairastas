@@ -21,6 +21,13 @@
  * Date: 2023-05-11T18:29Z
  */
 
+/*!
+ * simpleParallax.min - simpleParallax is a simple JavaScript library that gives your website parallax animations on any images or videos, 
+ * @date: 20-08-2020 14:0:14, 
+ * @version: 5.6.2,
+ * @link: https://simpleparallax.com/
+ */
+
 /**!
  * @fileOverview Kickass library to create and place poppers near their reference elements.
  * @version 1.16.1
