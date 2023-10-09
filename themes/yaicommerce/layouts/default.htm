@@ -14,6 +14,10 @@
     <body>
         {% partial 'site/header' %}
 
+        {% if this.page.id != 'index' %}
+            {% partial 'hero' %}
+        {% endif %}
+
         {% page %}
 
         {% partial 'site/footer' %}
