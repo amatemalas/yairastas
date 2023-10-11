@@ -28,8 +28,28 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     {% partial 'site/links' %}
                 </ul>
-                <a href="{{ 'login'|page }}" class="btn btn-outline-primary c-btn me-2">{{ 'Iniciar sesión'|_ }}</a>
-                <a href="{{ 'register'|page }}" class="btn btn-outline-primary c-btn">{{ 'Registrarse'|_ }}</a>
+                {% if not user %}
+                    <a href="{{ 'login'|page }}" class="btn btn-outline-primary c-btn me-2">{{ 'Iniciar sesión'|_ }}</a>
+                    <a href="{{ 'register'|page }}" class="btn btn-outline-primary c-btn">{{ 'Registrarse'|_ }}</a>
+                {% else %}
+                    <div class="d-flex align-items-center justify-content-md-start justify-content-end">
+                        <div class="me-2">{{ 'Bienvenido/a'|_ }}, {{ user.name }} {{ user.surname }}</div>
+                        <div class="dropdown c-header__dropdown">
+                            <button class="rounded-circle border border-primary overflow-hidden p-0" id="profileDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                {% if user.avatar %}
+                                    <img src="{{ user.avatar.thumb(40, 40, { mode: 'crop' }) }}" alt="{{ user.name }}" width="40" height="40">
+                                {% else %}
+                                    <img src="{{ 'assets/images/placeholder-user.png'|theme }}" alt=""  width="40" height="40">
+                                {% endif %}
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="profileDropdown">
+                                <li><a class="dropdown-item" href="{{ 'account'|page }}">{{ 'Perfil'|_ }}</a></li>
+                                <li><a class="dropdown-item" data-request="onLogout" data-request-data="redirect: '/'" href="/logout">{{ 'Cerrar sesión'|_ }}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                {% endif %}
+
             </div>
         </div>
     </div>

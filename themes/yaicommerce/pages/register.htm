@@ -1,12 +1,14 @@
 title = "Registro"
 layout = "default"
 url = "/register"
+
+[account]
 ==
 <div class="container my-5 py-5 text-center">
     <p class="mb-5">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempore voluptatem, molestiae totam architecto aperiam laborum velit repudiandae quos autem esse quis eligendi voluptate at commodi doloremque repellendus natus eius.
     </p>
-    <form class="form text-center">
+    <form data-request="onRegister" data-request-data="redirect: '/'" data-request-flash class="form text-center">
         <div class="col-sm-6 m-auto">
             <div class="row">
                 <div class="col-md-6 mb-3">

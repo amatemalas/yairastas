@@ -1,4 +1,6 @@
 [sitePicker]
+
+[session]
 ==
 <!DOCTYPE html>
 <html lang="{{ activeLocale }}">
@@ -10,6 +12,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ 'assets/dist/css/style.css'|theme }}">
+        {% styles %}
     </head>
     <body>
         {% partial 'site/header' %}
@@ -22,6 +25,8 @@
 
         {% partial 'site/footer' %}
 
+        {% framework extras %}
         <script src="{{ 'assets/dist/js/app.js'|theme }}"></script>
+        {% scripts %}
     </body>
 </html>

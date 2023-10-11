@@ -1,9 +1,11 @@
 title = "Iniciar sesión"
 layout = "default"
 url = "/login"
+
+[account]
 ==
 <div class="container my-5 py-5 text-center">
-    <form class="form text-center">
+    <form data-request="onSignin" data-request-data="redirect: '{{ 'account'|page }}'" data-request-flash class="form text-center">
         <div class="col-sm-6 m-auto mb-3">
             <div class="form-floating">
                 <input class="form-control" type="text" id="username" name="username" placeholder="{{ 'Usuario'|_ }}">

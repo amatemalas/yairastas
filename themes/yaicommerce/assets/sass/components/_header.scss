@@ -4,4 +4,8 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    &__dropdown .dropdown-menu {
+        left: auto !important;
+        right: 0px;
+    }
 }
