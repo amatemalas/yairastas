@@ -1,0 +1,15 @@
+<li class="nav-item">
+    <a class="nav-link {{ color ? 'text-' ~ color : '' }} {{ this.page.id == 'index' ? 'active' : '' }}" aria-current="page" href="{{ 'index'|page }}">{{ 'Inicio'|_ }}</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link {{ color ? 'text-' ~ color : '' }} {{ this.page.id == 'about' ? 'active' : '' }}" href="{{ 'about'|page }}">{{ 'Nosotros'|_ }}</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link {{ color ? 'text-' ~ color : '' }} {{ this.page.id == 'products' ? 'active' : '' }}" href="{{ 'products'|page }}">{{ 'Productos'|_ }}</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link {{ color ? 'text-' ~ color : '' }} {{ this.page.id == 'services' ? 'active' : '' }}" href="{{ 'services'|page }}">{{ 'Servicios'|_ }}</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link {{ color ? 'text-' ~ color : '' }} {{ this.page.id == 'contact' ? 'active' : '' }}" href="{{ 'contact'|page }}">{{ 'Contacto'|_ }}</a>
+</li>

@@ -8,3 +8,4 @@ require('./modules/navbar');
 require('./modules/slider');
 require('./modules/parallax');
 require('./modules/aos');
+// require('./modules/adaptativeHeight');
