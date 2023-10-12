@@ -1,5 +1,7 @@
 <?php namespace Amatemalas\Yairastas;
 
+use Amatemalas\Yairastas\Events\BeforeRegisterCustom;
+use Event;
 use System\Classes\PluginBase;
 
 /**
@@ -12,6 +14,7 @@ class Plugin extends PluginBase
      */
     public function register()
     {
+        Event::subscribe(BeforeRegisterCustom::class);
     }
 
     /**

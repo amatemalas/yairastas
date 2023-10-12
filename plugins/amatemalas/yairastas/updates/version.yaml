@@ -33,3 +33,6 @@ v1.1.1:
 v1.1.2:
     - 'Created table amatemalas_yairastas_products_tags'
     - builder_table_create_amatemalas_yairastas_products_tags.php
+v1.1.3:
+    - 'Add extra fields to rainlab user'
+    - migration_113.php
